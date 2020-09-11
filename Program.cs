@@ -13,7 +13,21 @@ namespace Programozasi_tetelek
         {
             TombKiiras();
             osszegzes();
+            megszamolas();
             Console.ReadKey();
+        }
+
+        private static void megszamolas()
+        {
+            int s = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] % 3 == 0)
+                {
+                    s++;
+                }
+            }
+            Console.WriteLine("A tömbben {0} \"-3 al\" osztható szám van", s);
         }
 
         private static void osszegzes()
