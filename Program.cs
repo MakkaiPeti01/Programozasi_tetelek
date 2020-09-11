@@ -15,7 +15,18 @@ namespace Programozasi_tetelek
             osszegzes();
             megszamolas();
             eldontes();
+            kivalasztas();
             Console.ReadKey();
+        }
+
+        private static void kivalasztas()
+        {
+            int s = 1;
+            while (tomb[s] != 50)
+            {
+                s = s + 1;
+            }
+            Console.WriteLine("Az \"50\" es a {0}. helyen van",s+1);
         }
 
         private static void eldontes()

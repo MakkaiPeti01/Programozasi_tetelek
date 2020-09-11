@@ -18,3 +18,8 @@
 - Metódus létrehozása
 - Van-e a tömbben "69"?
 - Kiírás ("Van/Nincs")
+
+## Kiválasztás
+- Metódus létrehozása
+- Hányadik az "50"?
+- Kiírás az indexét.
