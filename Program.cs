@@ -17,7 +17,21 @@ namespace Programozasi_tetelek
             eldontes();
             kivalasztas();
             kereses();
+            maximum();
             Console.ReadKey();
+        }
+
+        private static void maximum()
+        {
+            int m = tomb[0];
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i] > m)
+                {
+                    m = tomb[i];
+                }
+            }
+            Console.WriteLine("A tömb legnagyobb eleme: {0}", m);
         }
 
         private static void kereses()

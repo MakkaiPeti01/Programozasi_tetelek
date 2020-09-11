@@ -27,3 +27,7 @@
 ## Keresés
 - Kereses() metódus létrehozása.
 - Van e benne "50" és ha van hányadik?
+
+## Maximum
+- Maximum methódus
+- Kiírni a legnagyobb elemet
