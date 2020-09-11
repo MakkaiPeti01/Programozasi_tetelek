@@ -13,3 +13,8 @@
 - Összegzés tétele a tömbön
 - Hány 3al osztható szám van a tömbben
 - Kiírás
+
+## Eldöntés
+- Metódus létrehozása
+- Van-e a tömbben "69"?
+- Kiírás ("Van/Nincs")
