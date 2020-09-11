@@ -16,7 +16,25 @@ namespace Programozasi_tetelek
             megszamolas();
             eldontes();
             kivalasztas();
+            kereses();
             Console.ReadKey();
+        }
+
+        private static void kereses()
+        {
+            int s = 1;
+            while (s <= tomb.Length && tomb[s] != 50)
+            {
+                s++;
+            }
+            if (s<=tomb.Length)
+            {
+                Console.WriteLine("A keresett elem a {0}. a tömbben", s + 1);
+            }
+            else
+            {
+                Console.WriteLine("Nincs a tömbben");
+            }
         }
 
         private static void kivalasztas()

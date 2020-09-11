@@ -23,3 +23,7 @@
 - Metódus létrehozása
 - Hányadik az "50"?
 - Kiírás az indexét.
+
+## Keresés
+- Kereses() metódus létrehozása.
+- Van e benne "50" és ha van hányadik?
