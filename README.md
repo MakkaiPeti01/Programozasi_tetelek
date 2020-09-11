@@ -8,3 +8,7 @@
     - TömbKiiras() metódus létrehozása.
     - Nem ad vissza értéket, nincs paramétere.
     - A tömb elemeit vesszõvel elválasztva egy sorban a console irja ki.
+## Összegzés
+- Összegzés metódus létrehozása
+- Összegzés tétele a tömbön
+- Kiírás
